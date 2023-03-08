@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:ital,wght@1,500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+}
+
+li,
+a,
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+button {
+    padding: 0;
+    border: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 5px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+
+
+.introduction_banner {
+    background: url(https://media.istockphoto.com/id/1029949176/photo/grunge-flag-of-canada.jpg?s=612x612&w=0&k=20&c=KCjQfkSoUAyB4wlxm7VxKTrJc-Dz8wYOS1nT51iFNvg=);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 30vh;
+    display: grid;
+    place-items: center;
+}
+
+.introduction_banner h1{
+    background: transparent;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 5000;
+    color: white;
+    text-decoration: none;
+}
+
+.who_we_are {
+    margin: 20px 100px 20px 100px;
+    height: 10rem;
+    white-space: normal;
+}
+
+.who_we_are h2, p{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    background: inherit;
+}
+
+.who_we_are h2 {
+    margin-bottom: 10px;
+    font-weight: 5000;
+}
+
+.who_we_are p{
+    font-weight: 300;
+    text-align: center;
+}
+
+
