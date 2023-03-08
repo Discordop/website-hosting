@@ -9,15 +9,15 @@ export function isMobileTablet(){
 
 if (isMobileTablet()) {
     var link = document.getElementById('cssLink');
-    link.setAttribute("href", "../css/stylesmobile.css");
+    link.setAttribute("href", "./css/stylesmobile.css");
 
     var navigationBar = document.getElementsByClassName('navigation_bar');
     navigationBar[0].innerHTML = `
-    <img class="logo" src="../images/CKHosting.png" alt="logo">
-    <button class=menu_button><img width=30px height=30px src="../images/menu.png" alt="menu icon"></button>
+    <img class="logo" src="./images/CKHosting.png" alt="logo">
+    <button class=menu_button><img width=30px height=30px src="./images/menu.png" alt="menu icon"></button>
     `
     const addScriptTag = document.createElement('script');
-    addScriptTag.setAttribute("src", "../menu.js")
+    addScriptTag.setAttribute("src", "./menu.js")
     document.body.appendChild(addScriptTag)
 }
 
